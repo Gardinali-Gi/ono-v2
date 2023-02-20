@@ -10,7 +10,7 @@ import btnHoverEmail from "./botao-email-hover.svg";
 import btnClickWpp from "./botao-wpp-click.svg";
 import btnNoClickWpp from "./botao-wpp-noClick.svg";
 import btnHoverWpp from "./botao-wpp-hover.svg";
-import caution from "./Caution-Sign-1.svg";
+import caution from "./Caution-Sign-11.svg";
 import "./App.css";
 import Form from "./Form";
 
