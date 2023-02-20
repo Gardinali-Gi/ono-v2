@@ -112,7 +112,7 @@ label{
     font-size: 20px;
 }
 
-#formulario{
+.formulario{
     position: absolute;
     width: 508px;
     height: 617px;
@@ -185,7 +185,7 @@ border: none;
 background-image: url("./botao-wpp-click.svg");
 }
 
-.teste-img {
+.img_4 {
     cursor: pointer;
     animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
   }
