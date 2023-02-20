@@ -45,7 +45,7 @@ function App() {
             pessoa, o que é algo completamente diferente.{" "}
           </p>{" "}
         </div>{" "}
-        <img className="img_1" src={omo} />
+        <img className="img_1" src={omo} alt="sabão em pó e Ono"/>
         <div className="gif_1">
           <img
             src="https://thumbs.gfycat.com/HandyCrispBorderterrier-size_restricted.gif"
@@ -72,7 +72,7 @@ function App() {
             ON!
           </p>{" "}
         </div>
-        <img className="img_2" src={idea} />
+        <img className="img_2" src={idea} alt="pensativo tomando cafe" />
         <div className="meio3">
           <p className="texto_3">
             Não esquecendo de se alimentar para repor todas as energias que
@@ -88,7 +88,7 @@ function App() {
             criar uma construção sem vigas até desmoronar.
           </p>
         </div>
-        <img className="img_3" src={edifica} />
+        <img className="img_3" src={edifica} alt="construindo com tijolos"/>
         <div className="meio5">
           <p className="texto_5">
             Enfim, me deixo a disposição para te ajudar, caso precise! Por isso
