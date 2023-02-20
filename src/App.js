@@ -120,7 +120,7 @@ function App() {
           </a>{" "}
         </div>{" "}
       </section>{" "}
-      <img className="img_4" src={caution} />
+      <a href="https://drive.google.com/file/d/1bm_RYfErm_IZPKIOJqJv94MLo7QhKAmZ/view?usp=share_link" ><img className="img_4" src={caution} alt="carta apresentação" /> <a/>
       <footer>
         <img className="img_footer" src={bottom} alt="imagem de footer" />
       </footer>
