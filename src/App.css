@@ -108,6 +108,106 @@ footer {
     bottom: 0;
 }
 
+label{
+    font-size: 20px;
+}
+
+#formulario{
+    position: absolute;
+    width: 508px;
+    height: 617px;
+    text-align: center;
+
+background: rgba(255, 255, 190, 0.74);
+border-radius: 40px;
+filter: drop-shadow(6px 10px 30px #C3AF5E);
+}
+
+#email, #assunto{
+
+width: 424px;
+height: 46px;
+font-size: 20px;
+
+background: #F8F8F8;
+border-radius: 20px;
+border: none;
+}
+
+#mensagem{
+
+width: 424px;
+height: 176px;
+font-size: 20px;
+
+background: #F8F8F8;
+border-radius: 30px;
+border: none;
+}
+
+#btn-email{
+    width: 199px;
+    height: 54px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#btn-wpp{
+    width: 199px;
+    height: 54px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#btn-email:hover{
+        background-image: url("./botao-email-hover.svg");
+}
+
+#btn-wpp:hover{
+    background-image: url("./botao-wpp-hover.svg");
+}
+
+#btn-email:active{
+    background-image: url("./botao-email-click.svg");
+}
+
+#btn-wpp:active{
+background-image: url("./botao-wpp-click.svg");
+}
+
+.teste-img {
+    cursor: pointer;
+    animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
+  }
+
+
+@keyframes changeBackgroundColor {
+    0% {
+        transform: translateX(0px);
+      }
+     50% {
+        transform: translateX(30px);
+      }
+       75% {
+        transform: translateX(-30px);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+  }
+
+
+
 @media (max-width: 620px) {
     .titulo {
         font-size: 36px;
@@ -120,5 +220,7 @@ footer {
        font-size: 32px; 
     }
 }
+
+
 
 
