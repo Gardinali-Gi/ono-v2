@@ -1,6 +1,9 @@
 import cabecalho from "./cabecalho.svg";
 import bottom from "./bottom_city.svg";
 import ono from "./foto_ono.png";
+import omo from "./ono-omo.svg";
+import idea from "./ono-Idea.svg";
+import edifica from "./ono-edificar.svg";
 import "./App.css";
 import Form from "./Form";
 
@@ -35,6 +38,7 @@ function App() {
             pessoa, o que é algo completamente diferente.{" "}
           </p>{" "}
         </div>{" "}
+        <img className="img_1" src={omo} />
         <div className="gif_1">
           <img
             src="https://thumbs.gfycat.com/HandyCrispBorderterrier-size_restricted.gif"
@@ -49,7 +53,7 @@ function App() {
             {" "}
             Resolvi enviar este cartão para te desejar muito anos de vida,
             saúde, paz, alegria e tudo que vem em um combo de aniversário, mas
-            sem bolo.{" "}
+            sem bolo...{" "}
           </h2>{" "}
         </div>{" "}
         <div className="meio2">
@@ -61,7 +65,7 @@ function App() {
             ON!
           </p>{" "}
         </div>
-        <img className="img_1" src={bottom} />
+        <img className="img_2" src={idea} />
         <div className="meio3">
           <p className="texto_3">
             Não esquecendo de se alimentar para repor todas as energias que
@@ -69,7 +73,7 @@ function App() {
             fome mesmo.
           </p>
         </div>
-        <img className="img_2" src={bottom} />
+        <img className="img_3" src={bottom} />
         <div className="meio4">
           <p className="texto_4">
             Mas lembrando, use com moderação se autodeclarar como burro para se
@@ -78,7 +82,7 @@ function App() {
             criar uma construção sem vigas até desmoronar.
           </p>
         </div>
-        <img className="img_3" src={bottom} />
+        <img className="img_4" src={edifica} />
         <div className="meio5">
           <p className="texto_5">
             Enfim, me deixo a disposição para te ajudar, caso precise! Por isso
