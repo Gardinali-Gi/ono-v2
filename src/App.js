@@ -4,12 +4,12 @@ import ono from "./foto_ono.png";
 import omo from "./ono-omo.svg";
 import idea from "./ono-Idea.svg";
 import edifica from "./ono-edificar.svg";
-import btnClickEmail from "./botao-email-click.svg";
+/* import btnClickEmail from "./botao-email-click.svg";
 import btnNoClickEmail from "./botao-email-noClick.svg";
 import btnHoverEmail from "./botao-email-hover.svg";
 import btnClickWpp from "./botao-wpp-click.svg";
 import btnNoClickWpp from "./botao-wpp-noClick.svg";
-import btnHoverWpp from "./botao-wpp-hover.svg";
+import btnHoverWpp from "./botao-wpp-hover.svg"; */
 import caution from "./Caution-Sign-11.svg";
 import "./App.css";
 import Form from "./Form";
