@@ -118,6 +118,9 @@ label{
     height: 617px;
     text-align: center;
 
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    
 background: rgba(255, 255, 190, 0.74);
 border-radius: 40px;
 filter: drop-shadow(6px 10px 30px #C3AF5E);
@@ -148,20 +151,23 @@ border: none;
 #btn-email{
     width: 199px;
     height: 54px;
-    
+    background-image: url("./botao-email-click.svg");
+   border:none;
     
     /* Inside auto layout */
     
     flex: none;
     order: 0;
     flex-grow: 0;
+    
+
 }
 
 #btn-wpp{
     width: 199px;
     height: 54px;
-    
-    
+    background-image: url("./botao-wpp-noClick.svg");
+    border:none;
     /* Inside auto layout */
     
     flex: none;
