@@ -205,15 +205,17 @@ border: none;
 background-image: url("./botao-wpp-click.svg");
 }
 
-.img_4 {
-    cursor: pointer;
-    animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
-    width: 10%;
+.img4{
     background-position: right;
     text-align: right;
     display: flex;
     position: absolute;
-    top:100px;
+    top:100px; 
+}
+.img_4 {
+    cursor: pointer;
+    animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
+    width: 10%;
   }
 
 
