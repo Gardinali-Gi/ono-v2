@@ -59,7 +59,7 @@ class Form extends Component {
 
                 <input type="hidden" name="_captcha" value="false"/>
                 <input type="hidden" name="_next" value="http://localhost:3000/"></input>
-                <button type="submit" value="Enviar email" onClick={enviado}>Enviar e-mail</button>
+                <button type="submit" id="btn-email" value="Enviar email" onClick={enviado}>Enviar e-mail</button>
                 <input type="button" id="btn-wpp" className="btn-wpp" value="Enviar por WhatsApp" onClick={enviarWhatsApp}/>
                 <input type="hidden" name="_template" value="box"/>
         </form>
