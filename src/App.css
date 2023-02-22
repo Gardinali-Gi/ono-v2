@@ -114,8 +114,9 @@ label{
 .forms{
 text-align: center;
 position: absolute;
-      align-items: center;
-    justify-content: center;  
+align-items: center;
+justify-content: center; 
+display: Block;
 }
 
 .formulario{
