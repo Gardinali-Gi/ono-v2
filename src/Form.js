@@ -46,7 +46,7 @@ class Form extends Component {
                 alert("Formulário enviado 😉")
             }
         return (
-            <section>
+            <section className="forms">
                 <form className="formulario" id="formulario" action="https://formsubmit.co/giovannagardinali11@gmail.com" method="post" onSubmit="">
                 <label for="email">E-mail</label><br/>
                 <input onChange={this.handleInputChange} type="email" className="email" name="email" id="email" required/><br/>
