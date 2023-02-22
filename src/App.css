@@ -15,6 +15,15 @@ h1 {
   font-size: 48px;
 }
 
+h2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -217,6 +226,40 @@ label {
   cursor: pointer;
   animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
   width: 30%;
+}
+
+.img_1{
+animation: changeBackgroundColor1 5s infinite; /* propriedade de animação */
+}
+
+@keyframes changeBackgroundColor1 {
+  75% {
+    background-image: url("./ono-omo2.svg");
+  }
+}
+
+.img_2{
+animation: changeBackgroundColor2 5s infinite; /* propriedade de animação */
+}
+
+@keyframes changeBackgroundColor2 {
+  75% {
+    background-image: url("./ono-Idea2.svg");
+  }
+}
+
+.img_3{
+animation: changeBackgroundColor3 5s infinite; /* propriedade de animação */
+}
+
+@keyframes changeBackgroundColor3 {
+  
+  50% {
+    background-image: url("./ono-edificar2.svg");
+  }
+  75% {
+    background-image: url("./ono-edificar3.svg");
+  }
 }
 
 @keyframes changeBackgroundColor {
