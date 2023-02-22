@@ -60,8 +60,10 @@ class Form extends Component {
                 <input type="hidden" name="_captcha" value="false"/>
                 <input type="hidden" name="_next" value="http://localhost:3000/"></input>
                 <label for="mensagem2" className="mensagem2">Por onde deseja enviar a mensagem?</label><br/>
+                <div className="socialButton">
                 <button type="submit" id="btn-email" value="" onClick={enviado}></button>
-                <input type="button" id="btn-wpp" className="btn-wpp" value="" onClick={enviarWhatsApp}/>
+                <input type="button" id="btn-wpp" className="btn-wpp" value="" onClick={enviarWhatsApp}/>   
+                </div>
                 <input type="hidden" name="_template" value="box"/>
         </form>
             </section>
