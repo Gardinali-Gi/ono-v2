@@ -47,11 +47,6 @@ function App() {
         </div>{" "}
         <img className="img_1" src={omo} alt="sabão em pó e Ono"/>
         <div className="gif_1">
-          <img
-            src="https://thumbs.gfycat.com/HandyCrispBorderterrier-size_restricted.gif"
-            alt="fica ok"
-            width="40%"
-          />
         </div>{" "}
       </header>{" "}
       <section>
