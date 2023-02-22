@@ -232,13 +232,6 @@ label {
   width: 70%;
   margin: auto;
   display: block;
-animation: changeBackgroundColor1 5s infinite; /* propriedade de animação */
-}
-
-@keyframes changeBackgroundColor1 {
-  75% {
-    background-image: url("./ono-omo2.svg");
-  }
 }
 
 .img_2{
@@ -260,18 +253,8 @@ animation: changeBackgroundColor2 5s infinite; /* propriedade de animação */
   width: 30%;
   margin: auto;
   display: block;
-animation: changeBackgroundColor3 5s infinite; /* propriedade de animação */
 }
 
-@keyframes changeBackgroundColor3 {
-  
-  50% {
-    background-image: url("./ono-edificar2.svg");
-  }
-  75% {
-    background-image: url("./ono-edificar3.svg");
-  }
-}
 
 @keyframes changeBackgroundColor {
   0% {
