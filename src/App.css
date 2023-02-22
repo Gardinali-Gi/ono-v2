@@ -1,265 +1,263 @@
 * {
-    padding: 0;
+  padding: 0;
 }
 
 html {
-    height: 100vh;
+  height: 100vh;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
 }
 
 h1 {
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
-    margin: 30px;
-    padding: 0;
-    font-size: 48px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  padding: 0;
+  font-size: 48px;
 }
 
-
-
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    flex-wrap: wrap;
-    margin: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+  margin: 30px;
 }
 
 .inicio {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    flex-wrap: wrap;
-    margin: 0 0 20px 0;
-    padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 .texto_previsao {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0 0 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 0 20px;
 }
 
 .meio {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .final {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 30px 0 120px 0;
-    flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 0 120px 0;
+  flex-wrap: wrap;
 }
 
 body {
-    max-width: 100vw;
-    background: rgb(248, 248, 248);
-    margin: 0px;
-    min-height: 100vh;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
+  max-width: 100vw;
+  background: rgb(248, 248, 248);
+  margin: 0px;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
 }
 
 .gif_1 {
-    text-align: center;
-    margin: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 .img_footer,
 .img_header {
-    width: 100%;
+  width: 100%;
 }
 
 .download_foto {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    background: #0066A2;
-    color: white;
-    border-style: outset;
-    border-color: #0066A2;
-    height: 50px;
-    width: 150px;
-    cursor: pointer;
-    border-radius: 30px;
-    text-decoration: none
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background: #0066a2;
+  color: white;
+  border-style: outset;
+  border-color: #0066a2;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 30px;
+  text-decoration: none;
 }
 
 footer {
-    bottom: 0;
+  bottom: 0;
 }
 
-label{
-    font-size: 20px;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
-    margin: 20px;
+label {
+  font-size: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  margin: 20px;
 }
-.mensagem2{
-   text-align: center;
-}
-
-.forms{
-text-align: center;
-position: absolute;
-align-items: center;
-justify-content: center; 
-display: Block;
+.mensagem2 {
+  text-align: center;
 }
 
-.formulario{
-    position: absolute;
-    width: 508px;
-    height: 617px;
-    margin: auto;
-    display: block;
-    
-
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
-    
-background: rgba(255, 255, 190, 0.74);
-border-radius: 40px;
-filter: drop-shadow(6px 10px 30px #C3AF5E);
+.forms {
+  text-align: center;
+  margin: auto;
+  display: Block;
 }
 
-#email, #assunto{
+.formulario {
+  width: 508px;
+  height: 617px;
+  margin: auto;
+  display: block;
 
-width: 424px;
-height: 46px;
-font-size: 20px;
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-    
-background: #F8F8F8;
-border-radius: 20px;
-border: none;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+
+  background: rgba(255, 255, 190, 0.74);
+  border-radius: 40px;
+  filter: drop-shadow(6px 10px 30px #c3af5e);
 }
 
-#mensagem{
-
-width: 424px;
-height: 176px;
-font-size: 20px;
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-    
-background: #F8F8F8;
-border-radius: 30px;
-border: none;
+.socialButton {
+  margin-top: 20px;
+  display: inline-flex;
 }
 
-#btn-email{
-    width: 199px;
-    height: 54px;
-    background-image: url("./botao-email-noClick.svg");
-   border:none;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 20px;
+#email,
+#assunto {
+  width: 424px;
+  height: 46px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 
+  background: #f8f8f8;
+  border-radius: 20px;
+  border: none;
 }
 
-#btn-wpp{
-    width: 199px;
-    height: 54px;
-    background-image: url("./botao-wpp-noClick.svg");
-    border:none;
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 20px;
+#mensagem {
+  width: 424px;
+  height: 176px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+
+  background: #f8f8f8;
+  border-radius: 30px;
+  border: none;
 }
 
-#btn-email:hover{
-        background-image: url("./botao-email-hover.svg");
+#btn-email {
+  width: 199px;
+  height: 54px;
+  background-image: url("./botao-email-noClick.svg");
+  border: none;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px;
 }
 
-#btn-wpp:hover{
-    background-image: url("./botao-wpp-hover.svg");
+#btn-wpp {
+  width: 199px;
+  height: 54px;
+  background-image: url("./botao-wpp-noClick.svg");
+  border: none;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 20px;
 }
 
-#btn-email:active{
-    background-image: url("./botao-email-click.svg");
+#btn-email:hover {
+  background-image: url("./botao-email-hover.svg");
 }
 
-#btn-wpp:active{
-background-image: url("./botao-wpp-click.svg");
+#btn-wpp:hover {
+  background-image: url("./botao-wpp-hover.svg");
 }
 
-.img4{
-    background-position: right;
-    text-align: right;
-    display: flex;
-    position: absolute;
-    top:100px; 
+#btn-email:active {
+  background-image: url("./botao-email-click.svg");
+}
+
+#btn-wpp:active {
+  background-image: url("./botao-wpp-click.svg");
+}
+
+.img4 {
+  background-position: right;
+  text-align: right;
+  display: flex;
+  position: absolute;
+  top: 100px;
 }
 .img_4 {
-    cursor: pointer;
-    animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
-    width: 30%;
-  }
-
-
-@keyframes changeBackgroundColor {
-    0% {
-        transform: translateX(0px);
-      }
-     50% {
-        transform: translateX(30px);
-      }
-       75% {
-        transform: translateX(-30px);
-      }
-      100% {
-        transform: translateX(0px);
-      }
-  }
-
-  .img_1{
-    width: 70%;
-    margin: auto;
-    display: block;
-   }
-   
-   .img_2, .img_3{
-    width: 40%;
-    margin: auto;
-    display: block;
-    
-   }
-
-
-
-@media (max-width: 620px) {
-    .titulo {
-        font-size: 36px;
-    }
-    .titulo_desculpa1, .titulo_desculpa2, .texto_previsao {
-        font-size: 16px;
-    }
-    
-    .titulo2 {
-       font-size: 32px; 
-    }
+  cursor: pointer;
+  animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
+  width: 30%;
 }
 
+@keyframes changeBackgroundColor {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  75% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 
+.img_1 {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.img_2,
+.img_3 {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+@media (max-width: 620px) {
+  .titulo {
+    font-size: 36px;
+  }
+  .titulo_desculpa1,
+  .titulo_desculpa2,
+  .texto_previsao {
+    font-size: 16px;
+  }
+
+  .titulo2 {
+    font-size: 32px;
+  }
+}
