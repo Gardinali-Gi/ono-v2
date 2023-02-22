@@ -16,17 +16,6 @@ h1 {
 }
 
 
-h2 {
-    max-width: 90%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-.texto_desculpa1,
-.texto_desculpa2 {
-    font-size: 20px;
-    margin: 0 0 0 20px;
-}
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -114,6 +103,8 @@ footer {
 
 label{
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .forms{
@@ -241,14 +232,20 @@ background-image: url("./botao-wpp-click.svg");
 .img_1{
  width: 70%;
     text-align: center;
+        align-items: center;
+    justify-content: center;
 }
 
 .img_2, .img_3{
  width: 60%;
     text-align: center;
+        align-items: center;
+    justify-content: center;
 }
 
 .img_4{
  margin-bottom: 10%;
+        align-items: right;
+    justify-content: right;
     
 }
