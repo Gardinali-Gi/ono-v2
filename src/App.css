@@ -229,32 +229,37 @@ label {
 }
 
 .img_1{
+  width: 70%;
+  margin: auto;
+  display: block;
 animation: changeBackgroundColor1 5s infinite; /* propriedade de animação */
 }
 
 @keyframes changeBackgroundColor1 {
   75% {
     background-image: url("./ono-omo2.svg");
-    width: 70%;
-    margin: auto;
-    display: block;
   }
 }
 
 .img_2{
+    width: 30%;
+    margin: auto;
+    display: block;
 animation: changeBackgroundColor2 5s infinite; /* propriedade de animação */
+ 
 }
 
 @keyframes changeBackgroundColor2 {
   75% {
     background-image: url("./ono-Idea2.svg");
-    width: 30%;
-    margin: auto;
-    display: block;
+
   }
 }
 
 .img_3{
+  width: 30%;
+  margin: auto;
+  display: block;
 animation: changeBackgroundColor3 5s infinite; /* propriedade de animação */
 }
 
@@ -262,15 +267,9 @@ animation: changeBackgroundColor3 5s infinite; /* propriedade de animação */
   
   50% {
     background-image: url("./ono-edificar2.svg");
-    width: 30%;
-  margin: auto;
-  display: block;
   }
   75% {
     background-image: url("./ono-edificar3.svg");
-      width: 30%;
-  margin: auto;
-  display: block;
   }
 }
 
@@ -289,18 +288,6 @@ animation: changeBackgroundColor3 5s infinite; /* propriedade de animação */
   }
 }
 
-.img_1 {
-  width: 70%;
-  margin: auto;
-  display: block;
-}
-
-.img_2,
-.img_3 {
-  width: 30%;
-  margin: auto;
-  display: block;
-}
 
 @media (max-width: 620px) {
   .titulo {
