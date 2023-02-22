@@ -4,6 +4,7 @@
 
 html {
     height: 100vh;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
 }
 
 h1 {
@@ -159,7 +160,7 @@ border: none;
     flex: none;
     order: 0;
     flex-grow: 0;
-    
+    margin: 20px;
 
 }
 
@@ -173,6 +174,8 @@ border: none;
     flex: none;
     order: 1;
     flex-grow: 0;
+    opacity: 0.6;
+    margin: 20px;
 }
 
 #btn-email:hover{
@@ -227,6 +230,8 @@ background-image: url("./botao-wpp-click.svg");
     }
 }
 
-
+.img_1, .img_2, .img_3{
+ width: 70%;
+}
 
 
