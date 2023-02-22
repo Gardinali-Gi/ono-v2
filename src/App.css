@@ -113,11 +113,16 @@ label{
     font-size: 20px;
 }
 
+.forms{
+text-align: center;
+position: absolute;
+}
+
 .formulario{
     position: absolute;
     width: 508px;
     height: 617px;
-    text-align: center;
+    text-align: left;
 
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
