@@ -210,7 +210,8 @@ background-image: url("./botao-wpp-click.svg");
     animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
     width: 10%;
     background-position: right;
-    bottom: -60px;
+    text-align: right;
+    top: -60px;
     display: flex;
   }
 
