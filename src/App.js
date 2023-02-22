@@ -51,12 +51,12 @@ function App() {
       </header>{" "}
       <section>
         <div className="meio">
-          <h2 className="titulo2">
+          <p className="titulo2">
             {" "}
             Resolvi enviar este cartão para te desejar muito anos de vida,
             saúde, paz, alegria e tudo que vem em um combo de aniversário, mas
             sem bolo...{" "}
-          </h2>{" "}
+          </p>{" "}
         </div>{" "}
         <div className="meio2">
           <p className="texto_2">
