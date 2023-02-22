@@ -103,8 +103,8 @@ footer {
 
 label{
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
 }
 
 .forms{
@@ -131,7 +131,9 @@ filter: drop-shadow(6px 10px 30px #C3AF5E);
 width: 424px;
 height: 46px;
 font-size: 20px;
-
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+    
 background: #F8F8F8;
 border-radius: 20px;
 border: none;
@@ -142,7 +144,9 @@ border: none;
 width: 424px;
 height: 176px;
 font-size: 20px;
-
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+    
 background: #F8F8F8;
 border-radius: 30px;
 border: none;
@@ -173,7 +177,6 @@ border: none;
     flex: none;
     order: 1;
     flex-grow: 0;
-    opacity: 0.6;
     margin: 20px;
 }
 
