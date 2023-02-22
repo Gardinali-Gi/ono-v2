@@ -29,7 +29,12 @@ function App() {
         />
       </head>{" "}
       <header>
+        
         <img src={cabecalho} className="img_header" alt="imagem de cabecalho" />
+        <a href="https://drive.google.com/file/d/1bm_RYfErm_IZPKIOJqJv94MLo7QhKAmZ/view?usp=share_link">
+  <img
+  className="img_4" src={caution} alt="carta apresentação"/>
+    </a>
         <div className="inicio">
           <h1 className="titulo"> Parabéns!! </h1>{" "}
           <p className="texto_desculpa1">
@@ -50,6 +55,7 @@ function App() {
         </div>{" "}
       </header>{" "}
       <section>
+        
         <div className="meio">
           <p className="titulo2">
             {" "}
@@ -103,7 +109,7 @@ function App() {
             </i>
           </p>
         </div>
-
+        
         <hr/>
 
         <Form />
@@ -114,16 +120,16 @@ function App() {
             FOTO DA MONTAGEM{" "}
           </a>{" "}
         </div>{" "}
+        
       </section>{" "}
+      
       <footer>
-        <a href="https://drive.google.com/file/d/1bm_RYfErm_IZPKIOJqJv94MLo7QhKAmZ/view?usp=share_link">
-  <img
-  className="img_4" src={caution} alt="carta apresentação"/>
-    </a>
-        <img className="img_footer" src={bottom} alt="imagem de footer" />
+      
       </footer>
-
+      
+        <img className="img_footer" src={bottom} alt="imagem de footer" />
     </div>
+    
   );
 }
 
