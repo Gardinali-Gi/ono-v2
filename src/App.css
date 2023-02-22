@@ -215,7 +215,7 @@ background-image: url("./botao-wpp-click.svg");
 .img_4 {
     cursor: pointer;
     animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
-    width: 10%;
+    width: 30%;
   }
 
 
