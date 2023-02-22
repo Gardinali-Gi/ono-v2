@@ -21,7 +21,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     flex-wrap: wrap;
-    margin: 0 0 20px 0;
+    margin: 30px;
 }
 
 .inicio {
@@ -209,7 +209,8 @@ background-image: url("./botao-wpp-click.svg");
     cursor: pointer;
     animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
     width: 10%;
-    background-position: left;
+    background-position: right;
+    bottom: -60px;
     display: flex;
   }
 
@@ -241,12 +242,7 @@ background-image: url("./botao-wpp-click.svg");
     display: block;
     
    }
-   
-   .img_4{
-    
-      
-       
-   }
+
 
 
 @media (max-width: 620px) {
