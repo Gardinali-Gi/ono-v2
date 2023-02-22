@@ -152,7 +152,7 @@ border: none;
 #btn-email{
     width: 199px;
     height: 54px;
-    background-image: url("./botao-email-click.svg");
+    background-image: url("./botao-email-noClick.svg");
    border:none;
     
     /* Inside auto layout */
