@@ -45,9 +45,9 @@ function App() {
           <p className="texto_desculpa2">
             {" "}
             Aparentemente dia 28 de janeiro é quando uma determinada pessoa faz
-            aniversário e que no ambiente de trabalho conhecemos como Ono, o
+            aniversário e que eu particularmente conheci como Ono, o
             sobrenome lembra muito aquela marca de sabão em pó, mas é uma
-            pessoa, o que é algo completamente diferente.{" "}
+            pessoa, o que é algo completamente diferente 'acho'.{" "}
           </p>{" "}
         </div>{" "}
         <img className="img_1" src={omo} alt="sabão em pó e Ono"/>
@@ -86,14 +86,14 @@ function App() {
             Mas lembrando, use com moderação se autodeclarar como burro para se
             edificar como pessoa. Você é uma das pessoas mais inteligentes de
             conhecimentos gerais que conheço, e usar isso sem moderação pode
-            criar uma construção sem vigas até desmoronar.
+            criar uma construção sem vigas até desmoronar...
           </p>
         </div>
         <img className="img_3" src={edifica} alt="construindo com tijolos"/>
         <div className="meio5">
           <p className="texto_5">
             Enfim, me deixo a disposição para te ajudar, caso precise! Por isso
-            o formulário abaixo, que basta me mandar o pedido de ajuda e
+            o <strong> formulário abaixo </strong>, que basta me mandar o pedido de ajuda e
             disparar por e-mail ou telefone que eu receberei!
           </p>
           <p className="texto_6">
@@ -104,14 +104,14 @@ function App() {
           </p>
           <p className="texto_7">
             <i>
-              *Pode mandar por aqui também os materias de treinamento que estava
-              para ser entregue em 30/06/2022 'Brincadeiras a parte'.
+              *Pode mandar por aqui também os materias de treinamento que te pedi
+              para ser entregue em 30/06/2022 'Brincadeiras a parte' haha.
             </i>
           </p>
         </div>
         
         <hr/>
-
+<h2>🦇 Batcanal 🦇</h2>
         <Form />
 
         <div className="final">
